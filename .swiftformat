@@ -1,0 +1,5 @@
+--swiftversion 6.3
+--indent 4
+--maxwidth 120
+--disable redundantSelf
+--disable wrapMultilineStatementBraces

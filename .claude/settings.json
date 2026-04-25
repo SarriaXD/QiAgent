@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/post-swift-edit.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "swiftui-pro@swiftui-agent-skill": true,
+    "swift-lsp@claude-plugins-official": true
+  }
+}
